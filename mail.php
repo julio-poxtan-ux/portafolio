@@ -3,8 +3,12 @@
         $name = $_POST['name'];
         $email = $_POST['email'];
         $message = $_POST['message'];
+// <<<<<<< HEAD
         $from = 'Demo de contacto'; 
         $to = 'jcpoxtan@hotmail.com'; 
+        $from = 'Demo Contact Form'; 
+        $to = '******'; 
+// >>>>>>> 13a4534d5550dba94ea5ca0564daaa74b41de80b
         $subject = 'Message from Contact Demo ';
         
         $body = "From: $name\n E-Mail: $email\n Message:\n $message";
