@@ -3040,7 +3040,9 @@ screen and (max-device-width: 650px) and (min-device-width: 501px) {
     #landingpage .contentRight h2 {
         font-size: 80px !important;
     }
-
+    .juce-font {
+        height: 190px;
+    }
     .big.animqueht .content {
         bottom: 30%;
     }
