@@ -1,40 +1,13 @@
-<?php
-    if (isset($_POST["submit"])) {
-        $name = $_POST['name'];
-        $email = $_POST['email'];
-        $message = $_POST['message'];
-// <<<<<<< HEAD
-        $from = 'Demo de contacto'; 
-        $to = 'jcpoxtan@hotmail.com'; 
-        $from = 'Demo Contact Form'; 
-        $to = '******'; 
-// >>>>>>> 13a4534d5550dba94ea5ca0564daaa74b41de80b
-        $subject = 'Message from Contact Demo ';
-        
-        $body = "From: $name\n E-Mail: $email\n Message:\n $message";
- 
-        // Check if name has been entered
-        if (!$_POST['name']) {
-            $errName = 'Please enter your name';
-        }
-        
-        // Check if email has been entered and is valid
-        if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-            $errEmail = 'Please enter a valid email address';
-        }
-        
-        //Check if message has been entered
-        if (!$_POST['message']) {
-            $errMessage = 'Please enter your message';
-        }
- 
-// If there are no errors, send the email
-if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
-    if (mail ($to, $subject, $body, $from)) {
-        $result='<div class="alert alert-success">Thank You! I will be in touch</div>';
-    } else {
-        $result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
-    }
-}
-    }
+<?php 
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $asunto = $_POST['asunto'];
+    $message = $_POST['message'];
+    $formcontent="De: $name \n Asunto: $asunto \n Email: $email \n Mensaje: $message" ;
+    $recipient = "jucepoxtan@gmail.com";
+    $subject = "Formulario de contacto";
+    $mailheader = "Correo: $email \r\n";
+    mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+    echo "Gracias por contactarte!" . " -" . "<a href='index.html' style='text-decoration:none;color:#ff0099;'> Regresar</a>";
+
 ?>
