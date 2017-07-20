@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="row">
+    <div class="col-md-12 center-block">
+      <div id="juego">
+          <table>
+        <tr>
+          <td id="0" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="1" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="2" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="3" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        </tr>
+        <tr>
+          <td id="4" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="5" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="6" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="7" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        </tr>
+        <tr>
+          <td id="8" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="9" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="10" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="11" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        </tr>
+        <tr>
+          <td id="12" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="13" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="14" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+          <td id="15" class="letra" onclick="girarCarta()" data-valor="valor">?</td>
+        </tr>
+            </table>
+      </div>
+  <div class="centrar">
+    <!-- <input type="btn btn-md" value="Iniciar" onclick="iniciarJuego()" /> -->
+    <button class="btn-default btn-success btn-lg" value="Iniciar" onclick="iniciarJuego()" >INICIAR</button>
+    <button class="btn-default btn-success btn-lg" value="Reset" onclick="resetearJuego()" >RECETEAR</button>
+    <!-- <input type="btn btn-md" value="Reset" onclick="resetearJuego()" />  -->
+  </div>
+    </div>
+  </div>
+<script src="js/juego.js"></script>
+</body>
+</html>
