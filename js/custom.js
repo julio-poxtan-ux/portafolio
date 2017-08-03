@@ -720,10 +720,10 @@ var team = 0,
     noteamimag = 3,
     blog = 0,
     noblog = 0,
-    noblogimag = 8,
+    noblogimag = 6,
     posts = 0,
     noposts = 0,
-    nopostsimag = 8;
+    nopostsimag = 6;
 $(document).ready(function() {
     fullsiteAnimation()
 });
