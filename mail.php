@@ -8,5 +8,6 @@
     $subject = "Formulario de contacto";
     $mailheader = "Correo: $email \r\n";
     mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-    echo"<script type=\"text/javascript\">alert('El formulario fue enviado, me comunicare contigo :)'); window.location='index.html';</script>";
+    echo"<script type=\"text/javascript\">alert('El formulario fue enviado, me comunicaré contigo :)'); window.location='index.html';</script>";
 ?>
+
