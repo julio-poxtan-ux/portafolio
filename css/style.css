@@ -1982,7 +1982,7 @@ END BLOG AREA
     overflow: hidden;
     text-indent: -9999px;
     width: 23px;
-    display: none;
+    /*display: none;*/
     cursor: pointer;
 }
 .explr {
