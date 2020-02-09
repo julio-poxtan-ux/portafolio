@@ -82,7 +82,7 @@ Version: 1.1
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 25px;
-    font-family: 'Inconsolata';
+    font-family: Muli;
     color: white;
     -webkit-box-shadow: 0 15px 42px rgba(140, 99, 78, 0.1);
     -moz-box-shadow: 0 15px 42px rgba(140, 99, 78, 0.1);
@@ -1459,7 +1459,7 @@ figure.big .contentRight .post {
     -webkit-appearance: none;
     background: transparent none repeat scroll 0 0;
     outline: none;
-    font-family: Source Sans Pro;
+    font-family: Muli;
     border-width: 0 0 1px;
 }
 .contactform TEXTAREA {
@@ -1480,7 +1480,7 @@ figure.big .contentRight .post {
     -webkit-appearance: none;
     outline: none;
     height: 100px;
-    font-family: Source Sans Pro;
+    font-family: Muli;
 }
 .contactform INPUT[type="submit"] {
     -webkit-appearance: none;
@@ -1771,7 +1771,7 @@ END ABOUT US
 
 
 #blog .previous {
-    font-family: 'ralewayregular';
+    font-family: Muli;
     background: url(../images/prev-bg.png) 0 0 no-repeat;
     bottom: 70px;
     width: 75px;
@@ -1789,7 +1789,7 @@ END ABOUT US
 }
 #blog .next,
 #posts .next {
-    font-family: 'ralewayregular';
+    font-family: Muli;
     background: url(../images/next-bg.png) 0 0 no-repeat;
     width: 85px;
     height: 33px;
@@ -2047,13 +2047,13 @@ figure.clickImage .explrht {
 }.
 .sad-espacio {
     color: #000;
-    font-family: "Source Sans Pro";
+    font-family: Muli;
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
 }
 .touch {
-    font-family: montserratbold;
+    font-family: Muli;
     font-size: 14px;
     letter-spacing: 2px;
     margin: 4px 0 0 0;
@@ -2111,13 +2111,13 @@ figure.clickImage .explrht {
 }
 .blogsub {
     color: #080808;
-    font-family: Merriweather;
+    font-family: Muli;
     font-size: 12px;
     font-style: italic;
     font-weight: 300;
 }
 .contentRight .blogtitle {
-    font-family: "montserrat";
+    font-family: Muli;
     font-size: 58px;
     font-weight: bold;
     line-height: 75px;
@@ -2127,7 +2127,7 @@ figure.clickImage .explrht {
 }
 .blogmetainfo {
     color: #080808;
-    font-family: Merriweather;
+    font-family: Muli;
     font-size: 14px;
     font-style: italic;
     font-weight: 300;
@@ -2140,7 +2140,7 @@ figure.clickImage .explrht {
 }
 .blogdata {
     color: #666666;
-    font-family: "Source Sans Pro";
+    font-family: Muli;
     font-size: 19px;
     font-weight: 300;
     letter-spacing: 1px;
@@ -3630,7 +3630,7 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
 }
 .contact-main {
     color: #ffffff;
-    font-family: montserrat;
+    font-family: Muli;
     font-size: 20px;
     letter-spacing: 2px;
     line-height: 30px;
@@ -3640,7 +3640,7 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
 .contact-cap {
     color: red;
     display: inline-block;
-    font-family: montserratbold;
+    font-family: Muli;
     font-size: 40px;
     font-weight: bold;
    /* -webkit-transform: rotate(-90deg);
@@ -3654,7 +3654,7 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
 }
 .contact-sub {
     color: #d7d5d6;
-    font-family: montserrat;
+    font-family: Muli;
     font-size: 14px;
     font-weight: normal;
     padding: 30px 0;
@@ -3805,6 +3805,19 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
     /*color: black !important;*/
     margin: 5px 0 5px 0;
 }
+.jobs-box {
+    display: block;
+    padding: 2rem;
+    -webkit-box-shadow:0 15px 30px rgba(123, 123, 123, 0.31));
+    -moz-box-shadow:0 15px 30px rgba(123, 123, 123, 0.31));
+    box-shadow:0 15px 30px rgba(123, 123, 123, 0.31);
+    transform: scale(1);
+    -webkit-transition: -webkit-all .2s ease-in-out;
+    -moz-transition: -moz-all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
 .white {
     color: #fff;
     padding: 20px 0 0 0;
