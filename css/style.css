@@ -1536,7 +1536,7 @@ END POSTS
 #aboutus .contentRight h3 {
     font-size: 20px;
     font-weight: 500;
-    font-family: 'Lato';
+    font-family: 'Muli';
     padding: 25px 0 55px 0;
     line-height: 28px;
     text-align: left;
@@ -2158,7 +2158,7 @@ figure.clickImage .explrht {
 }
 .blogquestion {
     color: #000;
-    font-family: montserratbold;
+    font-family: Muli;
     font-size: 14px;
     letter-spacing: 2px;
     line-height: 22.85px;
@@ -2181,8 +2181,8 @@ figure.clickImage .explrht {
     font-weight: 900;
     letter-spacing: 2px;
     line-height: 22.85px;
-    text-transform: uppercase;
-    margin-top: 3rem
+    /*text-transform: uppercase;*/
+    margin: 1rem 0;
 }
 .sub__paddding20 {
     padding-top: 5px;
@@ -3793,15 +3793,16 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
     padding: 20px 0;
 }
 .resume-title {
-    color: #000;
-    font-family: montserratbold;
-    font-size: 14px;
+    color: #4a4a4a;
+    font-family: Muli;
+    font-weight: 600;
+    font-size: 16px;
     letter-spacing: 1px;
     line-height: 22.85px;
     text-transform: uppercase;
 }
 .resume-meta {
-    color: #5f5f5f !important;
+    /*color: black !important;*/
     margin: 5px 0 5px 0;
 }
 .white {
