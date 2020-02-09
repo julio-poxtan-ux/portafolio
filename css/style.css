@@ -12,12 +12,13 @@ Version: 1.1
 
 */
 /*FONTS*/
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200i,300i,400,600,600i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');*/
 /*FONTS*/
 
 
@@ -357,32 +358,6 @@ margin-top: 10px;
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'montserratbold';
-    src: url('fonts/montserrat-bold-webfont.eot');
-    src: url('fonts/montserrat-bold-webfont.eot?#iefix') 
-    format('embedded-opentype'), 
-    url('fonts/montserrat-bold-webfont.woff2') 
-    format('woff2'), url('fonts/montserrat-bold-webfont.woff')
-    format('woff'), url('fonts/montserrat-bold-webfont.ttf') 
-    format('truetype'), url('fonts/montserrat-bold-webfont.svg#montserratbold') 
-    format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'ralewayregular';
-    src: url('fonts/raleway-regular-webfont.eot');
-    src: url('fonts/raleway-regular-webfont.eot?#iefix')
-    format('embedded-opentype'), 
-    url('fonts/raleway-regular-webfont.woff2') 
-    format('woff2'), url('fonts/raleway-regular-webfont.woff') 
-    format('woff'), url('fonts/raleway-regular-webfont.ttf')
-    format('truetype'), url('fonts/raleway-regular-webfont.svg#ralewayregular')
-    format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'Pinkerton_Script';
@@ -554,15 +529,15 @@ END BASICS (BODY, HEADERS, LINKS, ETC)
 }
 #top-bar ul li a{
     display: block;
-    padding: 16px 0;
+    padding: 15px;
     text-align: center;
     /*background-color: #fcfbfb;*/
     text-decoration: none;
     color: white;
     border-right: 0px solid #222222;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    /*text-transform: uppercase;*/
+    font-family: Muli;
     font-weight: 700;
 }
 #top-bar ul li a:hover {
@@ -1306,10 +1281,10 @@ END PORTFOLIO
     padding: 50px 0;
 }
 .contentRight h2 {
-    font-family: "montserratbold";
-    font-size: 91px;
-    font-weight: normal;
-    letter-spacing: -4px;
+    font-family: Muli;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -2px;
     line-height: 115px;
 }
 figure.big .contentRight .post {
@@ -2201,12 +2176,13 @@ figure.clickImage .explrht {
 }
 .subtitle {
     color: #fff;
-    font-family: montserratbold;
+    font-family: 'Muli';
     font-size: 25px;
+    font-weight: 900;
     letter-spacing: 2px;
     line-height: 22.85px;
     text-transform: uppercase;
-    /*padding-top: 20px;*/
+    margin-top: 3rem
 }
 .sub__paddding20 {
     padding-top: 5px;
@@ -2216,6 +2192,7 @@ figure.clickImage .explrht {
 .juce-font {
     color: #fff;
     font-family: 'Pinkerton_Script' !important;
+    font-weight: 200 !important;
     font-size: 300px !important;
     height: 300px;
     padding-top: 100px;
