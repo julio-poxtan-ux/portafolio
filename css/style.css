@@ -1,6 +1,6 @@
 /*
 JUCE POXTAN
-2017
+2020
 HOLA@JUCEPOXTAN.COM
 JUCEPOXTAN@GMAIL.COM
 
@@ -22,6 +22,21 @@ Version: 1.1
 /*FONTS*/
 
 
+.img__certifica {
+    width: 160px;
+    /*transform: scale(1);*/
+    -webkit-transition: -webkit-all .4s ease-in-out;
+    -moz-transition: -moz-all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.img__certifica:hover {
+    /*transform: scale(1.2);*/
+    -webkit-transition: -webkit-all .2s ease-in-out;
+    -moz-transition: -moz-all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
+}
 .text-white {
     color: white !important;
 }
@@ -155,7 +170,8 @@ margin-top: 10px;
     margin: 0 190px 0 190px
 }
 .pill-skill{
-    font-size: 13px;
+    font-family: Muli;
+    font-size: 12px;
     color: #000;
     /*border-radius: 5px;*/
     border-bottom : 2px solid #ed687c;
@@ -173,7 +189,7 @@ margin-top: 10px;
     /*text-transform: capitalize;*/
 }
 .pill-skill:hover {
-    font-size: 13.5px;
+    /*font-size: 13.5px;*/
     color: white;
     background: #ed687c;
     /*border-radius: 5px;*/
@@ -181,7 +197,7 @@ margin-top: 10px;
     padding: 7px;
     margin-top: 20px;
     box-shadow: 14px 11px 30px -7px #ed687c;
-    transform: scale(1.1);
+    transform: scale(1.05);
     -webkit-transition: -webkit-all .2s ease-in-out;
     -moz-transition: -moz-all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
@@ -459,9 +475,9 @@ END BASICS (BODY, HEADERS, LINKS, ETC)
     position: fixed;
     width: 100%;
     z-index: 10;
-    background: black;
+    background: #0a0a0a;
+    box-shadow: 1px 4px 8px 7px rgba(0, 0, 0, 0.3);
 }
-
 #top-bar h1 {
     width: 234px;
     float: left;
@@ -1269,7 +1285,7 @@ END PORTFOLIO
 }
 .contentRight h2 {
     font-family: Muli;
-    font-size: 80px;
+    font-size: 20px;
     font-weight: 800;
     letter-spacing: -2px;
     line-height: 115px;
@@ -2024,13 +2040,10 @@ figure.clickImage .explrht {
 }
 .sad {
     color: #000;
-    font-family: 'Inconsolata', sans-serif;
+    font-family: muli;
     font-size: 17px;
-    font-weight: 500;
-    line-height: 22px;
-    /*letter-spacing: 1px;*/
-    /*font-style: italic;*/
-	/*max-width: 400px;*/
+    font-weight: 200;
+    line-height: 26px;
 }.
 .sad-espacio {
     color: #000;
@@ -3783,10 +3796,10 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
     color: #4a4a4a;
     font-family: Muli;
     font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 22.85px;
-    text-transform: uppercase;
+    font-size: 16px;
+    /*letter-spacing: 1px;*/
+    /*line-height: 2px;*/
+    /*text-transform: uppercase;*/
 }
 .resume-meta {
     /*color: black !important;*/
