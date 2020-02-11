@@ -21,6 +21,46 @@ Version: 1.1
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
 /*FONTS*/
 
+.box-skill {
+    font-family: Muli;
+    font-size: 14px;
+    color: #000;
+    border-radius: 5px;
+    height: 5vh;
+    border-bottom : 2px solid;
+    border-image-source:linear-gradient(90deg,#ff8a00,#e52e71) ;
+    border-image-slice: 1;
+    text-align: center;
+    padding: 7px;
+    margin-top: 20px;
+    -webkit-box-shadow: 0 15px 30px rgba(140, 99, 78, 0.31);
+    -moz-box-shadow: 0 15px 30px rgba(140, 99, 78, 0.31);
+    box-shadow: 0 15px 30px rgba(140, 99, 78, 0.31);
+    transform: scale(1);
+    -webkit-transition: -webkit-all .2s ease-in-out;
+    -moz-transition: -moz-all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.box-skill:hover {
+    /*font-size: 13.5px;*/
+    color: white;
+    background: #201c29;
+    /*border-radius: 5px;*/
+    text-align: center;
+    padding: 7px;
+    margin-top: 20px;
+    box-shadow: 14px 11px 30px -7px #ed687c;
+    transform: scale(1.05);
+    -webkit-transition: -webkit-all .2s ease-in-out;
+    -moz-transition: -moz-all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-box-shadow: 0 15px 42px rgba(140, 99, 78, 0.3);
+    -moz-box-shadow: 0 15px 42px rgba(140, 99, 78, 0.3);
+    box-shadow: 0 15px 42px rgba(140, 99, 78, 0.3);
+}
 
 .img__certifica {
     width: 160px;
@@ -30,13 +70,10 @@ Version: 1.1
     -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
-.img__certifica:hover {
-    /*transform: scale(1.2);*/
-    -webkit-transition: -webkit-all .2s ease-in-out;
-    -moz-transition: -moz-all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    transition: all .3s ease-in-out;
+.text-info {
+    width: 25vw;
 }
+
 .text-white {
     color: white !important;
 }
@@ -398,6 +435,7 @@ figure {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    color: #201c29;
 }
 * {
     margin: 0;
@@ -475,7 +513,7 @@ END BASICS (BODY, HEADERS, LINKS, ETC)
     position: fixed;
     width: 100%;
     z-index: 10;
-    background: #0a0a0a;
+    background: #201c29;
     box-shadow: 1px 4px 8px 7px rgba(0, 0, 0, 0.3);
 }
 #top-bar h1 {
@@ -544,7 +582,9 @@ END BASICS (BODY, HEADERS, LINKS, ETC)
     font-weight: 700;
 }
 #top-bar ul li a:hover {
-    color: #ed687c;
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #top-bar div p {
     float: left;
@@ -1285,7 +1325,7 @@ END PORTFOLIO
 }
 .contentRight h2 {
     font-family: Muli;
-    font-size: 20px;
+    font-size: 80px;
     font-weight: 800;
     letter-spacing: -2px;
     line-height: 115px;
@@ -1822,6 +1862,7 @@ END ABOUT US
 #blog .contentRight h2,
 #posts .contentRight h2 {
 	padding: 30px 0 0;
+    color: #201c29;
 }
 #blog .contentRight .blog-cont,
 #posts .contentRight .blog-cont {
@@ -3927,6 +3968,7 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
     color: #fff;
     text-align: center !important;
 }
+
 .landingpage .link {
     color: #fff;
 }
@@ -3964,7 +4006,7 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
     color: #fff !important;
 }
 #aboutus .subtitle {
-    color: #000;
+    color: #201c29;
 }
 #team .contentRight h2 {    
     max-width: 700px;
