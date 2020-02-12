@@ -25,6 +25,7 @@ Version: 1.1
     font-family: Muli;
     font-size: 14px;
     color: #000;
+    font-weight: 700;
     border-radius: 5px;
     height: 5vh;
     border-bottom : 2px solid;
@@ -46,7 +47,7 @@ Version: 1.1
 .box-skill:hover {
     /*font-size: 13.5px;*/
     color: white;
-    background: #201c29;
+    background: #272233;
     /*border-radius: 5px;*/
     text-align: center;
     padding: 7px;
@@ -62,17 +63,6 @@ Version: 1.1
     box-shadow: 0 15px 42px rgba(140, 99, 78, 0.3);
 }
 
-.img__certifica {
-    width: 160px;
-    /*transform: scale(1);*/
-    -webkit-transition: -webkit-all .4s ease-in-out;
-    -moz-transition: -moz-all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-.text-info {
-    width: 25vw;
-}
 
 .text-white {
     color: white !important;
@@ -100,7 +90,9 @@ Version: 1.1
     transition: all .4s ease-in-out;
 }
 .icon__behance:hover {
-    color: #ed687c;
+        background: linear-gradient(90deg,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     -webkit-transition: -webkit-all .2s ease-in-out;
     -moz-transition: -moz-all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
@@ -435,7 +427,7 @@ figure {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    color: #201c29;
+    color: #272233;
 }
 * {
     margin: 0;
@@ -513,8 +505,8 @@ END BASICS (BODY, HEADERS, LINKS, ETC)
     position: fixed;
     width: 100%;
     z-index: 10;
-    background: #201c29;
-    box-shadow: 1px 4px 8px 7px rgba(0, 0, 0, 0.3);
+    background: #272233;
+    /*box-shadow: 1px 4px 8px 7px rgba(0, 0, 0, 0.3);*/
 }
 #top-bar h1 {
     width: 234px;
@@ -1815,11 +1807,11 @@ END ABOUT US
 
 #blog .previous {
     font-family: Muli;
-    background: url(../images/prev-bg.png) 0 0 no-repeat;
+    background:white ;
     bottom: 70px;
-    width: 75px;
+    width: 65px;
     height: 33px;
-    color: #070538;
+    color: #272233;
     font-size: 16px;
     cursor: pointer;
     display: block;
@@ -1830,11 +1822,24 @@ END ABOUT US
     right: -1px;
     z-index: 110;
 }
+
+#blog .previous:after  {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-top: 33px solid transparent;
+    /*border-bottom: 16px solid transparent;*/
+    border-right: 10px solid white;
+    position: absolute;
+    right: 65px;
+    top: 0;
+}
+
 #blog .next,
 #posts .next {
     font-family: Muli;
-    background: url(../images/next-bg.png) 0 0 no-repeat;
-    width: 85px;
+    background: #272233;
+    width: 65px;
     height: 33px;
     text-align: left;
     bottom: 103px;
@@ -1849,9 +1854,23 @@ END ABOUT US
     position: absolute;
     z-index: 2147483647;
 }
+
+#blog .next:before {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-top: 33px solid transparent;
+    /*border-bottom: 16px solid transparent;*/
+    border-left: 10px solid #272233;
+    position: absolute;
+    right: -10px;
+    top: 0;
+}
+
 #blog .contentRight p,
 #posts .contentRight p {
     text-align: center;
+    font-family: Muli;
 }
 .contentRight p.blogsp-txt {
     color: #929191;
@@ -1862,7 +1881,7 @@ END ABOUT US
 #blog .contentRight h2,
 #posts .contentRight h2 {
 	padding: 30px 0 0;
-    color: #201c29;
+    color: #272233;
 }
 #blog .contentRight .blog-cont,
 #posts .contentRight .blog-cont {
@@ -2082,7 +2101,7 @@ figure.clickImage .explrht {
 .sad {
     color: #000;
     font-family: muli;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 200;
     line-height: 26px;
 }.
@@ -2958,6 +2977,7 @@ all and (max-width: 759px) and (min-width: 200px) {
         margin: 0px;
         float: none;
         display: block;
+        padding: 5rem;
     }
     #top-bar {
         overflow: visible;
@@ -4006,7 +4026,7 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
     color: #fff !important;
 }
 #aboutus .subtitle {
-    color: #201c29;
+    color: #272233;
 }
 #team .contentRight h2 {    
     max-width: 700px;
