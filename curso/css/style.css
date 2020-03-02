@@ -331,10 +331,10 @@ a, input[type="submit"] {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: #756de7;
-    -webkit-transform: skewY(-1deg);
-    -moz-transform: skewY(-1deg);
-    -ms-transform: skewY(-1deg);
-    transform: skewY(-1deg);
+    -webkit-transform: skewY(-10deg);
+    -moz-transform: skewY(-10deg);
+    -ms-transform: skewY(-10deg);
+    transform: skewY(-4deg);
     z-index: -1;
 }
 
@@ -2331,7 +2331,7 @@ svg.logo text {
     left: 0;
     top: 0;
     padding: 60px 50px;
-    background-color: #756de7;
+    background-color: #6415be;
     border-radius: 10px;
     -webkit-transform: rotateX(60deg) scale(0.5) translateY(50px);
     -moz-transform: rotateX(60deg) scale(0.5) translateY(50px);
@@ -2419,7 +2419,7 @@ svg.logo text {
     width: 62px;
     height: 62px;
     border-radius: 100px;
-    background-color: #756de7;
+    background-color: #6415be;
     text-align: center;
     padding-top: 8px;
     z-index: 100;
@@ -2429,7 +2429,7 @@ svg.logo text {
 }
 
 #features-links-holder .feature-icon-holder.opened {
-    background-color: #f16ff9;
+    background-color: #65d692;
 }
 
 #features-links-holder .feature-icon-holder.opened .animation-holder {
@@ -2441,7 +2441,7 @@ svg.logo text {
 }
 
 #features-links-holder .feature-icon-holder:hover, #features-links-holder .feature-icon-holder:focus {
-    background-color: #5d56c9;
+    background-color: #61d697;
 }
 
 #features-links-holder .feature-icon-holder .feature-icon {
