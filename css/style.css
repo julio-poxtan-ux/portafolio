@@ -503,7 +503,7 @@ END BASICS (BODY, HEADERS, LINKS, ETC)
 */
 
 /*
-	4.1. TOP-BAR
+4.1. TOP-BAR
 */
 
 
@@ -1677,7 +1677,7 @@ END POSTS
     height: 100%;
 }
 .postcontentarea {
-    margin: 0px 50px;
+    margin: 0 0 0 50px;
 }
 #aboutus .next,
 #contactus .next {
