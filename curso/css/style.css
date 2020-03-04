@@ -1,13 +1,7 @@
 /*------------------------------------------------------------------
- * Theme Name: Hostify Responsive Template
- * Theme URI: http://www.brandio.io/envato/hostify
- * Author: Brandio
- * Author URI: http://www.brandio.io/
+ * Author: Juce Poxtan
+ * Author URI: 
  * Description: A Bootstrap Responsive HTML5 Template
- * Version: 1.0
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2017 Brandio.
  -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [Table of contents]
@@ -28,16 +22,27 @@
 14. Inner Pages Styles.
 15. Responsive Styles.
 -------------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+/*@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700");
 
-@import url("https://fonts.googleapis.com/css?family=Rubik:400,500");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,500");*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap');
 
 @import url("../fonts/hostify.css");
 /*------------------------------------------------------------------
 	1. General Styles
 -------------------------------------------------------------------*/
+
+/*01.General*/
+.clientes {
+    background: gray;
+}
+
+
+
 *, body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -382,7 +387,7 @@ a, input[type="submit"] {
 }
 
 .logo-holder {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto+Condensed', sans-serif;
     color: #ffffff;
     font-size: 19px;
     font-weight: 500;
@@ -411,7 +416,7 @@ svg.logo {
 }
 
 svg.logo text {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto+Condensed', sans-serif;
     font-weight: 500;
     fill: #ffffff;
 }
@@ -2013,7 +2018,7 @@ svg.logo text {
     position: absolute;
     top: -20px;
     right: 12px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: 700;
     color: #ff9c04;
@@ -2185,7 +2190,7 @@ svg.logo text {
 }
 
 .custom-plan-box .slider .tooltip {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 700;
 }
@@ -2986,7 +2991,7 @@ svg.logo text {
 
 .info-slider-holder h6 {
     font-size: 16px;
-    font-family: "Rubik", sans-serif;
+    font-family: "Roboto+Condensed", sans-serif;
     color: #ffffff;
     font-weight: 500;
     margin-bottom: 20px;
