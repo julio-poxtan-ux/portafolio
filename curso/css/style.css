@@ -39,8 +39,52 @@
     background: gray;
 }
 
-
-
+.slide-course {
+   
+    height: 100vh;
+    padding: 5rem;
+    background-image: url(../images/headbg-blue.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #756de7;
+    z-index: 3;
+}
+.slide-course-2 {
+     height: 100vh;
+    padding: 5rem;
+    background-image: url(../images/headbg-darkblue.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #756de7;
+    z-index: 10;
+}
+.text-white {
+    color: white;
+}
+.text-center {
+    text-align: center !important;
+}
+.title-small-course {
+    font-size: 3rem;
+}
+.title-big-course {
+    font-size: 10rem;
+    font-weight: 700;
+}
+.title-info-course {
+    font-size:5rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+@media (max-width: 768px) {
+    .title-big-course {
+        font-size: 4rem;
+    }
+    .title-info-course {
+        font-size: 3rem;
+    }
+}
 *, body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
