@@ -428,7 +428,7 @@ input {
 @font-face {
     font-family: 'Pinkerton_Script';
     src: url('fonts/Pinkerton_Script-Regular.eot');
-    src: local('fonts/Pinkerton_Script Regular'), local('Pinkerton_Script-Regular'),
+    src: local('fonts/Pinkerton_Script-Regular'), local('Pinkerton_Script-Regular'),
         url('fonts/Pinkerton_Script-Regular.eot?#iefix') format('embedded-opentype'),
         url('fonts/Pinkerton_Script-Regular.woff2') format('woff2'),
         url('fonts/Pinkerton_Script-Regular.woff') format('woff'),
@@ -2613,8 +2613,8 @@ figure.clickImage .explrht {
 
 @media all and (max-device-width: 1300px) and (min-device-width: 1201px) {
     .contentRight h2 {
-        font-size: 53px;
-        line-height: 85px;
+        font-size: 40px;
+        line-height: 45px;
         margin-bottom: 0;
     }
 }
@@ -4129,7 +4129,7 @@ screen and (max-device-width: 500px) and (min-device-width: 400px) and (orientat
     }
     .name-cv {
         line-height: 1.2;
-        font-size: 8em;
+        font-size: 5em;
     }
 }
 
