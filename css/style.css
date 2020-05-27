@@ -21,11 +21,17 @@ Version: 1.1
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
 /*FONTS*/
 
+span.job-title {
+        background: linear-gradient(90deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .name-cv {
     font-size: 50px;
     font-family: Muli;
     font-weight: 100;
-    margin: 1.2em 0;
+    margin: 38px 0;
     color: #272233;
     letter-spacing: -1px;
 }
@@ -115,8 +121,9 @@ Version: 1.1
     /*border-bottom: 2px solid #353333;*/
     width: 30%;
     font-size: 4rem !important;
-    margin-bottom: 2rem;
-    padding-bottom: 2rem;
+    /*margin:0 2rem;*/
+    padding:10px;
+    border-left : 4px solid; border-image-source:linear-gradient(180deg,#ff8a00,#e52e71) ; border-image-slice: 1;
 }
 
 .btn__enviar {
