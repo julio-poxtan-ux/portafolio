@@ -22,18 +22,101 @@ Version: 1.1
 /*FONTS*/
 
 span.job-title {
-        background: linear-gradient(90deg, #ff8a00, #e52e71);
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.name-cv {
-    font-size: 50px;
+
+.item-title {
+    font-size: 18px;
+    text-align: left;
     font-family: Muli;
-    font-weight: 100;
-    margin: 38px 0;
+    margin: 1em 0;
+}
+
+.text-about {
+    margin: 3em;
+    font-size: 2em;
+}
+
+.item-description {
+    text-align: left;
+    font-size: 10px;
+
+}
+
+.content_item_skill {
+    padding: 1em;
+    border: 1px inset transparent;
+    height: 200px;
+}
+
+.content_item_skill:hover {
+    border: 1px inset;
+    border-image-source: linear-gradient(90deg, #ff8a00, #e52e71);
+    border-image-slice: 1;
+    padding: 1em;
+    /*padding: 2em;*/
+    -webkit-box-shadow: 0 15px 30px rgba(105, 105, 105, 0.31);
+    -moz-box-shadow: 0 15px 30px rgba(105, 105, 105, 0.31);
+    box-shadow: 0 15px 30px rgba(105, 105, 105, 0.31);
+    /*transform: scale(1.1);*/
+    -webkit-transition: -webkit-all .2s ease-in-out;
+    -moz-transition: -moz-all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.item_circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 1em auto;
+    position: relative;
+    z-index: 1;
+    /*padding: 20px;*/
+}
+.img-icon-circle {
+    width: 30px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 5px
+}
+
+.item_circle:after {
+    content: "";
+    display: block;
+    width: 69px;
+    height: 4px;
+    background: #ff8a00;
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    z-index: 2
+        /*top: 1em;*/
+}
+.item_circle:before {
+    content: "";
+    display: block;
+    width: 81px;
+    height: 4px;
+    background: #ff8a00;
+    position: absolute;
+    left: -80px;
+    top: 50%;
+    z-index: 2
+        /*top: 1em;*/
+}
+
+.name-cv {
+    font-size: 6em !important;
+    font-family: Muli;
+    font-weight: 600;
+    margin: .9em 0;
     color: #272233;
-    letter-spacing: -1px;
+    letter-spacing: -4px;
 }
 
 .box-skill {
@@ -122,8 +205,10 @@ span.job-title {
     width: 30%;
     font-size: 4rem !important;
     /*margin:0 2rem;*/
-    padding:10px;
-    border-left : 4px solid; border-image-source:linear-gradient(180deg,#ff8a00,#e52e71) ; border-image-slice: 1;
+    padding: 10px;
+    border-left: 4px solid;
+    border-image-source: linear-gradient(180deg, #ff8a00, #e52e71);
+    border-image-slice: 1;
 }
 
 .btn__enviar {
@@ -563,14 +648,13 @@ END BASICS (BODY, HEADERS, LINKS, ETC)
 
 #top-bar h1 a {
     display: block;
-    background: URL(../images/logo.png) no-repeat 0 0;
+    background: URL(../images/jucepoxtan.svg) no-repeat 0 0;
     text-decoration: none;
     text-indent: -9999px;
     overflow: hidden;
-    height: 50px;
-    margin-top: 0px;
+    margin: 0 2em;
     float: left;
-    width: 234px;
+    width: 100%;
 }
 
 #top-bar div {
@@ -1478,10 +1562,10 @@ END PORTFOLIO
 
 .contentRight h2 {
     font-family: Muli;
-    font-size: 80px;
-    font-weight: 800;
+    font-size: 4.3em;
+    font-weight: 100;
     letter-spacing: -2px;
-    line-height: 115px;
+    /*line-height: 115px;*/
 }
 
 figure.big .contentRight .post {
@@ -1765,15 +1849,12 @@ END POSTS
 }
 
 #aboutus .contentRight h3 {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
     font-family: 'Muli';
     padding: 25px 0 55px 0;
-    line-height: 28px;
+    line-height: 39px;
     text-align: left;
-    /*text-align: center;*/
-    color: #040404;
-    /*text-align: center;*/
 }
 
 #aboutus .servicebox {
@@ -1879,7 +1960,7 @@ END POSTS
 }
 
 .postcontentarea {
-    margin: 0 0 0 50px;
+    /*margin: 0 0 0 50px;*/
 }
 
 #aboutus .next,
@@ -2619,16 +2700,16 @@ figure.clickImage .explrht {
 }
 
 @media all and (max-device-width: 1300px) and (min-device-width: 1201px) {
-    .contentRight h2 {
+    /*.contentRight h2 {
         font-size: 40px;
         line-height: 45px;
         margin-bottom: 0;
-    }
+    }*/
 }
 
 @media all and (max-device-width: 1500px) and (min-device-width: 1301px) {
     .contentRight h2 {
-        font-size: 70px;
+        font-size: 60px;
         letter-spacing: -1;
         line-height: 85px;
         margin-bottom: 0;
@@ -4134,9 +4215,16 @@ screen and (max-device-width: 500px) and (min-device-width: 400px) and (orientat
     #menumobile ul {
         margin-top: 30%;
     }
+
     .name-cv {
         line-height: 1.2;
         font-size: 5em;
+        margin: 0;
+    }
+
+    #aboutus .contentRight h3 {
+        font-size: 1.5em;
+        line-height: 1.5em;
     }
 }
 
@@ -4742,7 +4830,7 @@ screen and (max-device-width: 660px) and (min-device-width: 400px) and (orientat
 }
 
 .cource-image {
-    margin-top: 50px;
+    margin: 5em 4em;
     max-width: 90%;
     box-shadow: 14px 11px 30px -7px rgba(132, 132, 132, 0.53);
 }

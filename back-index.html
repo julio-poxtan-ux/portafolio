@@ -1,137 +1,134 @@
 <!doctype html>
 <html>
-
-<head>
-    <title>Julio Poxtan | UX Developer</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <!-- Color de navegador -->
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="theme-color" content="#000" />
-    <!-- Color de navegador -->
-    <!-- SEO -->
-    <meta name="description" content="UX Developer - Frontend">
-    <meta name="keywords" content="Diseño UI, UX">
-    <meta property="og:title" content="Julio Poxtan">
-    <meta property="og:description" content="UX Design - Frontend">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="www.jucepoxtan.com">
-    <meta property="og:image" content="favicon.png">
-    <!-- SEO -->
-    <!--Bootstrap-->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <!--Bootstrap-->
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="js/sheet/sweetalert.css" rel="stylesheet" type="text/css" />
-    <link href="css/animations.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="js/lightbox/css/lightbox.css">
-    <!--Font Files-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Font Files End-->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="icon" href="favicon.png" type="image/png">
-    <!--[if lt IE 9]>
+    <head>
+        <title>Julio Poxtan | UX Developer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- Color de navegador -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="theme-color" content="#000" />
+        <!-- Color de navegador -->
+        <!-- SEO -->
+        <meta name="description" content="UX Developer - Frontend">
+        <meta name="keywords" content="Diseño UI, UX">
+        <meta property="og:title" content="Julio Poxtan">
+        <meta property="og:description" content="UX Developer - Frontend">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="www.jucepoxtan.com">
+        <meta property="og:image" content="favicon.png">
+        <!-- SEO -->
+        <!--Bootstrap-->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!--Bootstrap-->
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="js/sheet/sweetalert.css" rel="stylesheet" type="text/css" />
+        <link href="css/animations.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="js/lightbox/css/lightbox.css">
+        <!--Font Files-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Font Files End-->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="icon" href="favicon.png" type="image/png">
+        <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-</head>
-
-<body>
-    <!--preload de inicio -->
-    <div class="loader" id="loader">
-        &nbsp;</div>
-    <!--preload de inicio -->
-    <div id="wraper">
-        <a href="#" class="smallimg" id="smallimg">Back</a>
-        <!--Header Top -->
-        <div id="top-bar">
-            <h1 class="logo">
+    </head>
+    <body>
+        <!--preload de inicio -->
+        <!-- <div class="loader" id="loader">
+        &nbsp;</div> -->
+        <!--preload de inicio -->
+        <div id="wraper">
+            <a href="#" class="smallimg" id="smallimg">Back</a>
+            <!--Header Top -->
+            <div id="top-bar">
+                <h1 class="logo">
                 <a href="index.html">Julio Poxtan</a></h1>
-            <div class="socialmedia">
-                <a href="https://www.behance.net/jucepoxtan" target="_blank"><i class="fa fa-behance  fa-2x icon__behance"></i></a>
-                <a href="https://www.linkedin.com/in/julio-cesar-poxtan-delgado/" target="_blank"><i class="fa fa-linkedin fa-2x icon__behance"></i></a>
+                <div class="socialmedia">
+                    <a href="https://www.behance.net/jucepoxtan" target="_blank"><i class="fa fa-behance  fa-2x icon__behance"></i></a>
+                    <a href="https://www.linkedin.com/in/julio-cesar-poxtan-delgado/" target="_blank"><i class="fa fa-linkedin fa-2x icon__behance"></i></a>
+                </div>
+                <a class="mobilemenu">View Menu</a>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="#" onclick="aboutcube();">Acerca</a></li>
+                        <li><a href="#" onclick="blogcube()">Portfolio</a></li>
+                        <li><a href="#" onclick="contactcube();">Contacto</a></li>
+                    </ul>
+                </nav>
             </div>
-            <a class="mobilemenu">View Menu</a>
-            <nav id="menu">
+            <nav id="menumobile">
                 <ul>
                     <li><a href="#" onclick="aboutcube();">Acerca</a></li>
                     <li><a href="#" onclick="blogcube()">Portfolio</a></li>
                     <li><a href="#" onclick="contactcube();">Contacto</a></li>
                 </ul>
             </nav>
-        </div>
-        <nav id="menumobile">
-            <ul>
-                <li><a href="#" onclick="aboutcube();">Acerca</a></li>
-                <li><a href="#" onclick="blogcube()">Portfolio</a></li>
-                <li><a href="#" onclick="contactcube();">Contacto</a></li>
-            </ul>
-        </nav>
-        <!--Fin del Header Top -->
-        <!-- inicia landing page -->
-        <div id="landingpage" class="pt-page pt-page-current">
-            <section>
-                <div class="contentRight landingpage">
-                    <div class="postcontentarea">
-                        <div class="post parent">
-                            <div class="content-r-inner child">
-                                <div class="col-md-12 col-xs-12 col-lg-12 no-pad-home">
-                                    <h2 class="juce-font">Julio C. Poxtan</h2>
-                                    <div class="subtitle sub__paddding20">UX Developer</div>
+            <!--Fin del Header Top -->
+            <!-- inicia landing page -->
+            <div id="landingpage" class="pt-page pt-page-current">
+                <section>
+                    <div class="contentRight landingpage">
+                        <div class="postcontentarea">
+                            <div class="post parent">
+                                <div class="content-r-inner child">
+                                    <div class="col-md-12 col-xs-12 col-lg-12 no-pad-home">
+                                        <h2 class="juce-font">Julio Poxtan</h2>
+                                        <div class="subtitle sub__paddding20">UX Developer</div>
+                                    </div>
+                                    <div class="divider30">&nbsp;</div>
+                                    <div class="footer-box"></div>
+                                    <div class="divider30">&nbsp;</div>
                                 </div>
-                                <div class="divider30">&nbsp;</div>
-                                <div class="footer-box"></div>
-                                <div class="divider30">&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!--fin de landing page -->
+            <!--inicio del home -->
+            <div id="thumbnails" class="pt-page">
+                <div id="scalediv">
+                    <div class="hiddenscroll" id="hiddenscroll">
+                        <div class="row" data-id="one">
+                            <div class="innerrow">
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
-        <!--fin de landing page -->
-        <!--inicio del home -->
-        <div id="thumbnails" class="pt-page">
-            <div id="scalediv">
-                <div class="hiddenscroll" id="hiddenscroll">
-                    <div class="row" data-id="one">
-                        <div class="innerrow">
-                        </div>
-                    </div>
+                <!-- Inicio de posts -->
+                <div id="posts">
                 </div>
+                <!-- Pagina de posts -->
             </div>
-            <!-- Inicio de posts -->
-            <div id="posts">
-            </div>
-            <!-- Pagina de posts -->
-        </div>
-        <!-- fin de are -->
-        <!--Acerca de mi  -->
-        <div id="aboutus" class="pt-page">
-            <section>
-                <div class="contentRight aboutpage">
-                    <div class="postcontentarea">
-                        <div class="post">
-                            <div class="container-fluid">
-                                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                                    <img class="cource-image img-responsive hidden-xs img-circle" width="200" alt="Juce Poxtan" src="images/foto-personal.jpg">
-                                    <div class="divider10">&nbsp;</div>
-                                </div>
-                                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
-                                    <div class="divider10">&nbsp;</div>
-                                    <h3 class="text-left">
-                                        En los últimos 9 años e trabajado con multiples empresas en el sector <strong>Legal, Financiero, Turismo y PYMES</strong> desarrollando Productos Digitales con <strong>Design Thinking</strong>, <strong>LEAN UX</strong> adaptándolas a cada proyecto y estar presente durante todo el proceso partiendo de la idea iterarando para desarrollar y seguir iterando
+            <!-- fin de are -->
+            <!--Acerca de mi  -->
+            <div id="aboutus" class="pt-page">
+                <section>
+                    <div class="contentRight aboutpage">
+                        <div class="postcontentarea">
+                            <div class="post">
+                                <div class="container">
+                                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                        <img class="cource-image img-responsive" width="300" alt="Juce Poxtan" src="images/foto-personal.jpg">
+                                        <div class="divider10">&nbsp;</div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
                                         <br>
+                                        <div class="name-cv"><h2>Julio C. Poxtan</h2></div>
+                                        <div class="lang"></div>
+                                        
+                                        <h3 class="text-left">
+                                        En los últimos 9 años e trabajado con multiples empresas en el sector <strong>Legal, Financiero, Turismo y PYMES</strong> desarrollando Productos Digitales con Design Thinking y LEAN UX y estar presente durante todo el proceso partiendo de la idea iterarando para desarrollar y seguir iterando.
+                                        <!-- <hr style="border-top: 1px solid #b7b7b7"> -->
                                         <div class="divider10">&nbsp;</div>
                                         <div class="clear"></div>
-                                        <blockquote style="border-left : 4px solid; border-image-source:linear-gradient(180deg,#ff8a00,#e52e71) ; border-image-slice: 1;">
-                                            " En el mundo de la información y el software tienes que aprender sin parar "
-                                        </blockquote>
-                                    </h3>
-                                    <div class="divider10">&nbsp;</div>
-                                    <div class="clear"></div>
-                                    <div class="col-md-12">
-                                        <!--    <div class="subtitle navy-blue title-colab">Experiencia</div>
+                                        </h3>
+                                        <div class="col-md-12">
+                                            <!-- <div class="divider10">&nbsp;</div> -->
+                                            <div class="subtitle navy-blue title-colab">Experiencia</div>
                                         </div>
                                         <div class="divider10">&nbsp;</div>
                                         <div class="col-md-12 job-col">
@@ -180,17 +177,11 @@
                                             <li>● Diseño de Websites para clientes.</li>
                                             <li>● Diseño de materiales para Web.</li>
                                             <li>● Implementación de mejoras en los sitios creados. </li>
-                                        </div> -->
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                    <h2>Concentrado en las <strong>ideas</strong> y el <strong>lanzamiento</strong></h2>
-                                    <div class="divider20">&nbsp;</div>
-                                    <div class="clear"></div>
-                                        <img src="images/proceso-ux.svg" class="img-responsive" width="100%">
-                                    </div>
                                 <div class="container">
-                                    <div class="divider30">&nbsp;</div>
+                                    <div class="divider20">&nbsp;</div>
                                     <div class="clear"></div>
                                     <div class="divider20">&nbsp;</div>
                                     <div class="clear"></div>
@@ -222,7 +213,7 @@
                                                 </div>
                                                 <div class="contact-main">
                                                     <div class="line__2"></div>
-                                                    <a href="mailto:jucepoxtan@gmail.com">Enviame un email aquí</a>
+                                                    jucepoxtan@gmail.com
                                                     <br>
                                                     +52 9981 67 26 53
                                                 </div>
@@ -251,7 +242,7 @@
                         <div class="clear"></div>
                     </div>
                 </div>
-        </div>
+            </div>
         </section>
     </div>
     <!--finaliza pagina de contacto -->
@@ -263,14 +254,14 @@
     <div id="blog" class="pt-page">
         <aside>
             <a class="previous">
-                < Ant</a> <div class="postimagearea">
-                    <div class="postimage" style="background-image: URL(portafolio/intelectio-por.jpg);"></div>
-                    <div class="postimage" style="background-image: URL(portafolio/logos-portafolio.jpg);"></div>
-                    <div class="postimage" style="background-image: URL(portafolio/app-fica-prototipo.jpg"></div>
-                    <div class="postimage" style="background-image: URL(portafolio/la-barberiamexico-screem.jpg);"></div>
-                    <div class="postimage" style="background-image: URL(portafolio/daextra-portada.jpg);"></div>
-                    <div class="postimage" style="background-image: URL(portafolio/facturador-electronico.jpg);"></div>
-    </div>
+            < Ant</a> <div class="postimagearea">
+            <div class="postimage" style="background-image: URL(portafolio/intelectio-por.jpg);"></div>
+            <div class="postimage" style="background-image: URL(portafolio/logos-portafolio.jpg);"></div>
+            <div class="postimage" style="background-image: URL(portafolio/app-fica-prototipo.jpg"></div>
+            <div class="postimage" style="background-image: URL(portafolio/la-barberiamexico-screem.jpg);"></div>
+            <div class="postimage" style="background-image: URL(portafolio/daextra-portada.jpg);"></div>
+            <div class="postimage" style="background-image: URL(portafolio/facturador-electronico.jpg);"></div>
+        </div>
     </aside>
     <section>
         <a class="next">Sig ></a>
@@ -379,7 +370,7 @@
                         <br>
                         <br>
                         <h3 style="text-align: center;">
-                            PROTOTIPO MÓVIL
+                        PROTOTIPO MÓVIL
                         </h3>
                         <div class="blogdata">Panel administrativo </div>
                         <div class="blogdata leftbord">“Panel de administación para tu DaExtra”</div>
@@ -577,26 +568,25 @@
             </div>
         </div>
     </section>
-    </div>
-    <!--finaliza Proyectos -->
-    </div>
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/jquery.scrollTo.min.js"></script>
-    <script type='text/javascript' src="js/jquery.nicescroll.min.js"></script>
-    <script type='text/javascript' src="js/contacto-slide.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/lightbox/js/lightbox.js"></script>
-    <script>
-    $()
-    lightbox.option({
-        'resizeDuration': 200,
-        'wrapAround': true
-    })
-    </script>
-    <!--     <script language="Javascript">
+</div>
+<!--finaliza Proyectos -->
+</div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script type='text/javascript' src="js/jquery.nicescroll.min.js"></script>
+<script type='text/javascript' src="js/contacto-slide.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/lightbox/js/lightbox.js"></script>
+<script>
+$()
+lightbox.option({
+'resizeDuration': 200,
+'wrapAround': true
+})
+</script>
+<!--     <script language="Javascript">
 document.oncontextmenu = function(){return false}
 </script> -->
 </body>
-
 </html>
