@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1096px" height="142px" viewBox="0 0 1096 142" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1175px" height="271px" viewBox="0 0 1175 271" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
-    <title>proceso-ux</title>
+    <title>Artboard</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <linearGradient x1="100.940369%" y1="100%" x2="1.18990282%" y2="100%" id="linearGradient-1">
@@ -11,85 +11,84 @@
             <stop stop-color="#2DCE89" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-38.000000, -46.000000)">
-            <g id="proceso-ux" transform="translate(34.000000, 41.000000)">
-                <path d="M183.062176,8.40414508 C187.900274,13.7321779 191.109676,17.2644677 192.69042,19.0010583 L377.685,19 L369.554404,10.0207254 C369.015544,9.48186528 369.015544,8.94300518 369.554404,8.40414508 C370.093264,7.86528497 370.632124,7.86528497 371.170984,8.40414508 C376.009082,13.7321779 379.218484,17.2644677 380.799228,19.0010583 L565.794,19 L557.663212,10.0207254 C557.124352,9.48186528 557.124352,8.94300518 557.663212,8.40414508 C558.202073,7.86528497 558.740933,7.86528497 559.279793,8.40414508 C564.11789,13.7321779 567.327292,17.2644677 568.908037,19.0010583 L753.902,19 L745.772021,10.0207254 C745.233161,9.48186528 745.233161,8.94300518 745.772021,8.40414508 C746.310881,7.86528497 746.849741,7.86528497 747.388601,8.40414508 C752.226699,13.7321779 755.4361,17.2644677 757.016845,19.0010583 L942.011,19 L933.880829,10.0207254 C933.341969,9.48186528 933.341969,8.94300518 933.880829,8.40414508 C934.419689,7.86528497 934.958549,7.86528497 935.497409,8.40414508 C940.335507,13.7321779 943.544909,17.2644677 945.125653,19.0010583 L1043,19 L1043,23.3045775 L944.975,23.304 L935.497409,33.7305699 C935.317792,33.9101909 935.048362,34 934.689119,34 C934.329876,34 934.060446,33.9101909 933.880829,33.7305699 C933.341969,33.1917072 933.341969,32.6528523 933.880829,32.1139896 L941.857,23.304 L756.866,23.304 L747.388601,33.7305699 C747.208984,33.9101909 746.939554,34 746.580311,34 C746.221068,34 745.951638,33.9101909 745.772021,33.7305699 C745.233161,33.1917072 745.233161,32.6528523 745.772021,32.1139896 L753.748,23.304 L568.757,23.304 L559.279793,33.7305699 C559.100176,33.9101909 558.830746,34 558.471503,34 C558.11226,34 557.84283,33.9101909 557.663212,33.7305699 C557.124352,33.1917072 557.124352,32.6528523 557.663212,32.1139896 L565.64,23.304 L380.649,23.304 L371.170984,33.7305699 C370.991367,33.9101909 370.721937,34 370.362694,34 C370.003451,34 369.734021,33.9101909 369.554404,33.7305699 C369.015544,33.1917072 369.015544,32.6528523 369.554404,32.1139896 L377.531,23.304 L192.54,23.304 L183.062176,33.7305699 C182.882559,33.9101909 182.613129,34 182.253886,34 C181.894643,34 181.625213,33.9101909 181.445596,33.7305699 C180.906736,33.1917072 180.906736,32.6528523 181.445596,32.1139896 L189.422,23.304 L65,23.3045775 L65,19 L189.576,19 L181.445596,10.0207254 C180.906736,9.48186528 180.906736,8.94300518 181.445596,8.40414508 C181.984456,7.86528497 182.523316,7.86528497 183.062176,8.40414508 Z" id="Rectangle-2" fill="url(#linearGradient-1)"></path>
-                <g id="items">
-                    <g id="item" transform="translate(948.000000, 0.000000)">
-                        <g transform="translate(0.000000, 5.000000)">
-                            <text id="title" font-family="Muli-SemiBold, Muli" font-size="11" font-weight="500" fill="#2B2A2A">
-                                <tspan x="7.9885" y="125">Lanzamiento del producto o </tspan>
-                                <tspan x="18.961" y="139">servicio y siempre iterar</tspan>
-                            </text>
-                            <text font-family="Muli-ExtraBold, Muli" font-size="18" font-weight="600" fill="#2B2A2A">
-                                <tspan x="23.12" y="82">Lanzamiento</tspan>
-                            </text>
-                            <circle id="Oval" fill="#F5365C" cx="80" cy="16" r="16"></circle>
-                        </g>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="proceso-ux" transform="translate(34.000000, 40.000000)">
+            <path d="M183.062176,8.40414508 C187.900274,13.7321779 191.109676,17.2644677 192.69042,19.0010583 L377.685,19 L369.554404,10.0207254 C369.015544,9.48186528 369.015544,8.94300518 369.554404,8.40414508 C370.093264,7.86528497 370.632124,7.86528497 371.170984,8.40414508 C376.009082,13.7321779 379.218484,17.2644677 380.799228,19.0010583 L565.794,19 L557.663212,10.0207254 C557.124352,9.48186528 557.124352,8.94300518 557.663212,8.40414508 C558.202073,7.86528497 558.740933,7.86528497 559.279793,8.40414508 C564.11789,13.7321779 567.327292,17.2644677 568.908037,19.0010583 L753.902,19 L745.772021,10.0207254 C745.233161,9.48186528 745.233161,8.94300518 745.772021,8.40414508 C746.310881,7.86528497 746.849741,7.86528497 747.388601,8.40414508 C752.226699,13.7321779 755.4361,17.2644677 757.016845,19.0010583 L942.011,19 L933.880829,10.0207254 C933.341969,9.48186528 933.341969,8.94300518 933.880829,8.40414508 C934.419689,7.86528497 934.958549,7.86528497 935.497409,8.40414508 C940.335507,13.7321779 943.544909,17.2644677 945.125653,19.0010583 L1043,19 L1043,23.3045775 L944.975,23.304 L935.497409,33.7305699 C935.317792,33.9101909 935.048362,34 934.689119,34 C934.329876,34 934.060446,33.9101909 933.880829,33.7305699 C933.341969,33.1917072 933.341969,32.6528523 933.880829,32.1139896 L941.857,23.304 L756.866,23.304 L747.388601,33.7305699 C747.208984,33.9101909 746.939554,34 746.580311,34 C746.221068,34 745.951638,33.9101909 745.772021,33.7305699 C745.233161,33.1917072 745.233161,32.6528523 745.772021,32.1139896 L753.748,23.304 L568.757,23.304 L559.279793,33.7305699 C559.100176,33.9101909 558.830746,34 558.471503,34 C558.11226,34 557.84283,33.9101909 557.663212,33.7305699 C557.124352,33.1917072 557.124352,32.6528523 557.663212,32.1139896 L565.64,23.304 L380.649,23.304 L371.170984,33.7305699 C370.991367,33.9101909 370.721937,34 370.362694,34 C370.003451,34 369.734021,33.9101909 369.554404,33.7305699 C369.015544,33.1917072 369.015544,32.6528523 369.554404,32.1139896 L377.531,23.304 L192.54,23.304 L183.062176,33.7305699 C182.882559,33.9101909 182.613129,34 182.253886,34 C181.894643,34 181.625213,33.9101909 181.445596,33.7305699 C180.906736,33.1917072 180.906736,32.6528523 181.445596,32.1139896 L189.422,23.304 L65,23.3045775 L65,19 L189.576,19 L181.445596,10.0207254 C180.906736,9.48186528 180.906736,8.94300518 181.445596,8.40414508 C181.984456,7.86528497 182.523316,7.86528497 183.062176,8.40414508 Z" id="Rectangle-2" fill="url(#linearGradient-1)"></path>
+            <g id="items">
+                <g id="item" transform="translate(948.000000, 0.000000)">
+                    <g transform="translate(0.000000, 5.000000)">
+                        <text id="title" font-family="Muli-SemiBold, Muli" font-size="11" font-weight="500" fill="#2B2A2A">
+                            <tspan x="7.9885" y="125">Lanzamiento del producto o </tspan>
+                            <tspan x="18.961" y="139">servicio y siempre iterar</tspan>
+                        </text>
+                        <text font-family="Muli-ExtraBold, Muli" font-size="18" font-weight="600" fill="#2B2A2A">
+                            <tspan x="23.12" y="82">Lanzamiento</tspan>
+                        </text>
+                        <circle id="Oval" fill="#F5365C" cx="80" cy="16" r="16"></circle>
                     </g>
-                    <g id="item" transform="translate(759.000000, 0.000000)">
-                        <g transform="translate(0.000000, 5.000000)">
-                            <text id="title" font-family="Muli-SemiBold, Muli" font-size="11" font-weight="500" fill="#2B2A2A">
-                                <tspan x="5.5905" y="125">Revisión constante del scope </tspan>
-                                <tspan x="22.1345" y="139">del producto o servicio</tspan>
-                            </text>
-                            <text font-family="Muli-ExtraBold, Muli" font-size="18" font-weight="600" fill="#2B2A2A">
-                                <tspan x="10.115" y="82">Implementación</tspan>
-                            </text>
-                            <circle id="Oval" fill="#F5365C" cx="80" cy="16" r="16"></circle>
-                        </g>
+                </g>
+                <g id="item" transform="translate(759.000000, 0.000000)">
+                    <g transform="translate(0.000000, 5.000000)">
+                        <text id="title" font-family="Muli-SemiBold, Muli" font-size="11" font-weight="500" fill="#2B2A2A">
+                            <tspan x="5.5905" y="125">Revisión constante del scope </tspan>
+                            <tspan x="22.1345" y="139">del producto o servicio</tspan>
+                        </text>
+                        <text font-family="Muli-ExtraBold, Muli" font-size="18" font-weight="600" fill="#2B2A2A">
+                            <tspan x="10.115" y="82">Implementación</tspan>
+                        </text>
+                        <circle id="Oval" fill="#F5365C" cx="80" cy="16" r="16"></circle>
                     </g>
-                    <g id="item" transform="translate(569.000000, 0.000000)">
-                        <g transform="translate(0.000000, 5.000000)">
-                            <text id="title" font-family="Muli-SemiBold, Muli" font-size="11" font-weight="500" fill="#2B2A2A">
-                                <tspan x="17.762" y="125">Descubrir los problemas </tspan>
-                                <tspan x="27.9865" y="139">previos al desarrollo</tspan>
-                            </text>
-                            <text font-family="Muli-ExtraBold, Muli" font-size="18" font-weight="600" fill="#2B2A2A">
-                                <tspan x="33.443" y="82">Validación</tspan>
-                            </text>
-                            <circle id="Oval" fill="#6992C5" cx="80" cy="16" r="16"></circle>
-                        </g>
+                </g>
+                <g id="item" transform="translate(569.000000, 0.000000)">
+                    <g transform="translate(0.000000, 5.000000)">
+                        <text id="title" font-family="Muli-SemiBold, Muli" font-size="11" font-weight="500" fill="#2B2A2A">
+                            <tspan x="17.762" y="125">Descubrir los problemas </tspan>
+                            <tspan x="27.9865" y="139">previos al desarrollo</tspan>
+                        </text>
+                        <text font-family="Muli-ExtraBold, Muli" font-size="18" font-weight="600" fill="#2B2A2A">
+                            <tspan x="33.443" y="82">Validación</tspan>
+                        </text>
+                        <circle id="Oval" fill="#6992C5" cx="80" cy="16" r="16"></circle>
                     </g>
-                    <g id="item" transform="translate(379.000000, -0.000000)">
-                        <g transform="translate(0.000000, 5.000000)">
-                            <text id="title" font-family="Muli-SemiBold, Muli" font-size="11" font-weight="500" fill="#2B2A2A">
-                                <tspan x="2.164" y="125">Creación de prototipos de alta </tspan>
-                                <tspan x="25.154" y="139">fidelidad para probar</tspan>
-                            </text>
-                            <text font-family="Muli-ExtraBold, Muli" font-size="18" font-weight="600" fill="#2B2A2A">
-                                <tspan x="38.654" y="82">Prototipo</tspan>
-                            </text>
-                            <circle id="Oval" fill="#6992C5" cx="80" cy="16" r="16"></circle>
-                        </g>
+                </g>
+                <g id="item" transform="translate(379.000000, -0.000000)">
+                    <g transform="translate(0.000000, 5.000000)">
+                        <text id="title" font-family="Muli-SemiBold, Muli" font-size="11" font-weight="500" fill="#2B2A2A">
+                            <tspan x="2.164" y="125">Creación de prototipos de alta </tspan>
+                            <tspan x="25.154" y="139">fidelidad para probar</tspan>
+                        </text>
+                        <text font-family="Muli-ExtraBold, Muli" font-size="18" font-weight="600" fill="#2B2A2A">
+                            <tspan x="38.654" y="82">Prototipo</tspan>
+                        </text>
+                        <circle id="Oval" fill="#6992C5" cx="80" cy="16" r="16"></circle>
                     </g>
-                    <g id="item" transform="translate(189.000000, -0.000000)">
-                        <g transform="translate(0.000000, 5.000000)">
-                            <text id="title" font-family="Muli-SemiBold, Muli" font-size="11" font-weight="500" fill="#2B2A2A">
-                                <tspan x="14.8635" y="125">Definir comportamientos, </tspan>
-                                <tspan x="17.7125" y="139">intereses y necesidades.</tspan>
-                            </text>
-                            <text font-family="Muli-ExtraBold, Muli" font-size="18" font-weight="600" fill="#2B2A2A">
-                                <tspan x="48.248" y="82">Identar</tspan>
-                            </text>
-                            <circle id="Oval" fill="#2DCE89" cx="80" cy="16" r="16"></circle>
-                        </g>
+                </g>
+                <g id="item" transform="translate(189.000000, -0.000000)">
+                    <g transform="translate(0.000000, 5.000000)">
+                        <text id="title" font-family="Muli-SemiBold, Muli" font-size="11" font-weight="500" fill="#2B2A2A">
+                            <tspan x="14.8635" y="125">Definir comportamientos, </tspan>
+                            <tspan x="17.7125" y="139">intereses y necesidades.</tspan>
+                        </text>
+                        <text font-family="Muli-ExtraBold, Muli" font-size="18" font-weight="600" fill="#2B2A2A">
+                            <tspan x="55.745" y="82">Iterar</tspan>
+                        </text>
+                        <circle id="Oval" fill="#2DCE89" cx="80" cy="16" r="16"></circle>
                     </g>
-                    <g id="item" transform="translate(0.000000, -0.000000)">
-                        <g transform="translate(0.000000, 5.000000)">
-                            <text id="title" font-family="Muli-SemiBold, Muli" font-size="11" font-weight="500" fill="#2B2A2A">
-                                <tspan x="4.1385" y="125">Conocer la visión del negocio, </tspan>
-                                <tspan x="5.816" y="139">industria, producto o servicio</tspan>
-                            </text>
-                            <text font-family="Muli-ExtraBold, Muli" font-size="18" font-weight="600" fill="#2B2A2A">
-                                <tspan x="45.404" y="82">Alcance</tspan>
-                            </text>
-                            <circle id="Oval" fill="#2DCE89" cx="80" cy="16" r="16"></circle>
-                        </g>
+                </g>
+                <g id="item" transform="translate(0.000000, -0.000000)">
+                    <g transform="translate(0.000000, 5.000000)">
+                        <text id="title" font-family="Muli-SemiBold, Muli" font-size="11" font-weight="500" fill="#2B2A2A">
+                            <tspan x="4.1385" y="125">Conocer la visión del negocio, </tspan>
+                            <tspan x="5.816" y="139">industria, producto o servicio</tspan>
+                        </text>
+                        <text font-family="Muli-ExtraBold, Muli" font-size="18" font-weight="600" fill="#2B2A2A">
+                            <tspan x="45.404" y="82">Alcance</tspan>
+                        </text>
+                        <circle id="Oval" fill="#2DCE89" cx="80" cy="16" r="16"></circle>
                     </g>
                 </g>
             </g>
         </g>
+        <image id="mobilemenu" x="598" y="18" width="23" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAVCAYAAACt4nWrAAAABGdBTUEAALGOfPtRkwAAAENJREFUOBFj/A8EDDQCTDQyF2wsTQ1nAVrBSCvX09TlNDUcFCyjqQUjXYymFowgAQmMphacwTJatmAEzWhqwQgSkAAA+b8HMnXkcosAAAAASUVORK5CYII="></image>
     </g>
 </svg>
