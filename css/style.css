@@ -2663,6 +2663,12 @@ figure.clickImage .explrht {
     .right-content-inner {
         position: relative;
     }
+     .proceso-ux-mobile {
+        display: none;
+    }
+     .proceso-ux-desktop {
+        display: block;
+    }
 }
 
 @media (max-width: 1199px) {
@@ -2677,6 +2683,12 @@ figure.clickImage .explrht {
 
     .juce-font {
         font-size: 30px;
+    }
+     .proceso-ux-mobile {
+        display: none;
+    }
+     .proceso-ux-desktop {
+        display: block;
     }
 }
 
@@ -2705,6 +2717,13 @@ figure.clickImage .explrht {
         line-height: 45px;
         margin-bottom: 0;
     }*/
+     .proceso-ux-mobile {
+        display: none;
+    }
+     .proceso-ux-desktop {
+        display: block;
+    }
+
 }
 
 @media all and (max-device-width: 1500px) and (min-device-width: 1301px) {
@@ -2713,6 +2732,12 @@ figure.clickImage .explrht {
         letter-spacing: -1;
         line-height: 85px;
         margin-bottom: 0;
+    }
+     .proceso-ux-mobile {
+        display: none;
+    }
+     .proceso-ux-desktop {
+        display: block;
     }
 }
 
@@ -2727,12 +2752,26 @@ all and (max-width: 1220px) and (min-width: 1041px) {
     #aboutus .content-r-inner {
         padding: 50px 0px;
     }
+    .proceso-ux-mobile {
+        display: none;
+    }
+     .proceso-ux-desktop {
+        display: block;
+    }
 }
 
 /***** Ipad Landscape mode display *****/
 
 @media all and (max-device-width: 1040px) and (min-device-width: 811px) and (orientation: landscape),
 all and (max-width: 1040px) and (min-width: 811px) and (orientation: landscape) {
+
+
+    .proceso-ux-desktop {
+        display: block;
+    }
+    .proceso-ux-mobile {
+        display: none;
+    }
     .socialmedia ul li {
         float: right !important;
         margin-left: 12px;
@@ -3904,6 +3943,13 @@ screen and (max-device-width: 370px) and (min-device-width: 340px) {
 
 @media screen and (max-width: 500px) and (min-width: 200px),
 screen and (max-device-width: 500px) and (min-device-width: 200px) {
+
+    .proceso-ux-desktop {
+        display: none;
+    }
+    .proceso-ux-mobile {
+        display: block;
+    }
 
     .big .content,
     .bigerImage .content {}
